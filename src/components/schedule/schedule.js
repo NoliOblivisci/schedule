@@ -12,10 +12,10 @@ class Schedule extends Component {
         
         return data.map((course, index) => {
             if(course.enrolled) {
-                return <ScheduleCourse {...course} key={index} />
+                return <ScheduleCourse {...course} key={index} />;
             }
                 
-        })
+        });
     }
     
     render() {
